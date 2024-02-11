@@ -1,0 +1,9 @@
+def fibo(num):
+    a, b = 0, 1
+    print(a, end=" ")
+    while b <= num:
+        print(b, end=" ")
+        a, b = b, a + b
+
+num = int(input("Enter a number: "))
+fibo(num)
